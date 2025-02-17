@@ -16,6 +16,6 @@ public class CalculatorUnitTests
         int result = calc.Add(1, 2);
         result = calc.Add(result, 3);
         result = calc.Add(result, 4);
-        Assert.Equal(10, result); // Fejlen her: 5+5=10, ikke 11
+        Assert.Equal(11, result); // Fejlen her: 5+5=10, ikke 11
     }
 }
