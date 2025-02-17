@@ -16,7 +16,7 @@ namespace bad_project.tests
             int result = mathService.CalculateSum(numbers);
 
             // Fejlen her: 1+2+3+4=10, ikke 11
-            Assert.Equal(11, result);
+            Assert.Equal(10, result);
         }
     }
 }
