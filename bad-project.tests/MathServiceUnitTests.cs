@@ -25,4 +25,4 @@ namespace bad_project.tests
             }
         }
     }
-}
+} // Kim er awesome
