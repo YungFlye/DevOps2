@@ -19,3 +19,8 @@ public class CalculatorUnitTests
         Assert.Equal(10, result); // Fejlen her: 5+5=10, ikke 11
     }
 }
+
+
+public int KimsMethod() {
+return 2
+}
